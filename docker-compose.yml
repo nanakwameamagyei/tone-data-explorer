@@ -1,0 +1,20 @@
+services:
+  backend:
+    build: ./backend
+    container_name: tone-backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./backend:/app
+    environment:
+      - PORT=8080
+
+  frontend:
+    build: ./frontend
+    container_name: tone-frontend
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./frontend:/app
+    depends_on:
+      - backend

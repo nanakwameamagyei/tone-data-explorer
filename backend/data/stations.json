@@ -1,0 +1,23 @@
+[
+  {
+    "id": "TROLL",
+    "name": "Troll Station",
+    "lat": -72.01,
+    "lon": 2.53,
+    "elevation": 1270
+  },
+  {
+    "id": "TOR",
+    "name": "Tor Research Station",
+    "lat": -71.88,
+    "lon": 2.56,
+    "elevation": 1275
+  },
+  {
+    "id": "AURORA",
+    "name": "Aurora Observatory",
+    "lat": -72.1,
+    "lon": 2.4,
+    "elevation": 1300
+  }
+]

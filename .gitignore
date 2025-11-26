@@ -1,0 +1,20 @@
+# Node
+frontend/node_modules
+backend/node_modules
+
+# Next.js build
+frontend/.next
+frontend/out
+
+# Go build
+backend/main
+backend/bin
+backend/*.exe
+
+# Logs
+**/*.log
+
+# Env
+*.env
+backend/.env
+frontend/.env
